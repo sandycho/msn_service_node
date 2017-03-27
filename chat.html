@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+  </head>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="javascript/app.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700">
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+  <body>
+
+    <!-- BAR -->
+    <div class="menu">
+            <div class="back"><i class="fa fa-chevron-left"></i> <img src="http://i.imgur.com/DY6gND0.png" draggable="false"/></div>
+            <div id="recipient_name" class="name">Friend</div>
+            <div id="current_time" class="last">00:00</div>
+    </div>
+
+    <!-- MESSAGES LIST -->
+    <ol id="messages" class="messages"/>
+
+    <!-- INPUT MESSAGE AREA -->
+    <input class="textarea" id="m" autocomplete="off" type="text" placeholder="Type here!"/><div class="emojis"></div>
+    
+  </body>
+</html>

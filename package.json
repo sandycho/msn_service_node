@@ -2,7 +2,7 @@
   "name": "msn_service",
   "version": "1.0.0",
   "description": "Messaging system (buyers and sellers communication)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sandycho/msn_service_node#readme",
   "dependencies": {
+    "body-parser": "~1.16.0",
     "express": "^4.14.1",
     "socket.io": "^1.7.3"
   }
