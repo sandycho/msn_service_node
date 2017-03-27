@@ -13,3 +13,5 @@ If there is a previous chat, the messages will be loaded.
 
 If a new user in register it will be notify to all the users.
 
+# Result
+![image](nodejs_socketio_chat.png)
